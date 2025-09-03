@@ -11,7 +11,7 @@ await bot.init();
 bot.command("start", async (ctx) => {
   const keyboard = {
     inline_keyboard: [
-      [{ text: "🔘 Start Now", web_app: { url: "https://www.theportiq.com" } }],  // 게임 링크 수정
+      [{ text: "🔘 Start Now", web_app: { url: "https://portiq-azure.vercel.app" } }],  // 게임 링크 수정
       [{ text: "💬 Community", url: "https://t.me/AI_PTIQ" }],
       [{ text: "🧵 Twitter (X)", url: "https://x.com/AI_PTIQ" }],
       [{ text: "🌐 Website", url: "https://www.theportiq.com" }],
